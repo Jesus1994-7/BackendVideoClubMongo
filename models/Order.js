@@ -3,7 +3,7 @@ const ObjectId = mongoose.Types.ObjectId;
 
 const OrderSchema = new mongoose.Schema({
     userId: ObjectId,
-    moviesId: [ObjectId],
+    movieId: ObjectId,
     deliveryDate: Date,
     returnDate: Date
 }, {timestamps : true})
